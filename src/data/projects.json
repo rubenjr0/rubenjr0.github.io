@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Machine learning on the Fashion MNIST dataset",
+    "description": "I built a convolutional neural network and an autoencoder in Julia to predict classes in the Fashion MNIST dataset, getting a 0.895 accuracy on the CNN and a 0.838 on the autoencoder.",
+    "url": "https://github.com/rubenjr0/fashion-mnist-julia",
+    "stack": ["Julia", "Flux", "Jupyter"],
+    "tags": ["machine learning", "gpu"]
+  },
+  {
+    "name": "Virtual MIPS",
+    "description": "Virtual MIPS processor emulator. A python program turns source files into binaries than the virtual CPU written in rust then executes.",
+    "url": "https://github.com/rubenjr0/mips/",
+    "stack": ["Rust", "Python", "Assembly"],
+    "tags": ["low level", "emulation"]
+  },
+  {
+    "name": "ROTehc Frontend",
+    "description": "Developed a frontend application to visualize the ONEM2M hackaton air quality sensor's readings overlayed with a map of the city.",
+    "url": "https://github.com/ROTehc/frontend",
+    "stack": ["VueJS (JavaScript)", "ONEM2M", "NodeMCU"],
+    "tags": ["frontend", "embedded", "real time"]
+  },
+  {
+    "name": "ROTehc SmartApp",
+    "description": "Wrote a TypeScript application for an IOT hackaton that acted as a proxy and grouped air quality sensors and actuators based on their distance.",
+    "url": "https://github.com/ROTehc/SmartApp",
+    "stack": ["Deno (TypeScript)", "ONEM2M", "NodeMCU"],
+    "tags": ["backend", "embedded", "real time"]
+  },
+  {
+    "name": "Advent of code",
+    "description": "I enjoy solving as much AOC challenges as I can every year during December before my exams start. I usually solve every challenge using a couple languages so I don't get too rusty.",
+    "url": "https://github.com/rubenjr0/Advent-Of-Code/tree/main",
+    "stack": ["Python", "Crystal", "Rust", "Julia"],
+    "tags": ["challenges", "problem solving"]
+  },
+  {
+    "name": "CUDA ASCII Mandelbrot fractal",
+    "description": "Toy project to experiment with CUDA. The code renders an ASCII fractal on the terminal, but the code could be adapted to render an image.",
+    "url": "https://gist.github.com/rubenjr0/34b8656d14c4a6719cce50efaae708bf",
+    "stack": ["C/C++", "CUDA"],
+    "tags": ["gpu"]
+  },
+  {
+    "name": "Hackers Week website",
+    "description": "Made the website for the Hackers Week organized by the students council at ETSII UMA.",
+    "url": "https://github.com/ConsejoInfUMA/HackersWeekWeb",
+    "stack": ["Svelte (JavaScript)", "Github actions"],
+    "tags": ["web development", "ci"]
+  },
+  {
+    "name": "Brainf*ck suite",
+    "description": "Suite for the brainf*ck language. A collection of python programs generate bf source code that produces the output specified in a file, compress, decompress and run that bf code through an interpreter.",
+    "url": "https://github.com/rubenjr0/Brainfuck-Suite",
+    "stack": ["Python", "Brainf*ck"],
+    "tags": ["low level", "interpreter"]
+  }
+]
