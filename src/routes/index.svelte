@@ -49,6 +49,7 @@ import { onMount } from 'svelte';
 		</Section>
 
 		<Section name="Some of my projects 🛠️">
+			<p>Click on a project to know more!</p>
 			{#each projects as project}
 				<Project {project} />
 			{/each}

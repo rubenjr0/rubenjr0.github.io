@@ -7,7 +7,7 @@
 </script>
 
 <div class="card">
-	<h3><a href={project.url}>{project.name}</a></h3>
+	<h3><a href={project.url} target="_blank">{project.name}</a></h3>
 	<p>{project.description}</p>
 	<b>Stack</b>
 	<ul>
