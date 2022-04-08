@@ -75,7 +75,7 @@
 					</li>
 					<li>
 						LinkedIn{separator[1]}
-						<a href="https://www.linkedin.com/in/rubenjr0/">rubenjimenezr</a>
+						<a href="https://www.linkedin.com/in/rubenjr0/">rubenjr0</a>
 					</li>
 					<li>
 						Email{separator[2]} <a href="mailto:rubenjr0@protonmail.com">rubenjr0@protonmail.com</a>
