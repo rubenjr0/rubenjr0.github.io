@@ -14,18 +14,11 @@
     "tags": ["low level", "emulation"]
   },
   {
-    "name": "ROTehc Frontend",
-    "description": "Developed a frontend application to visualize the ONEM2M hackaton air quality sensor's readings overlayed with a map of the city.",
-    "url": "https://github.com/ROTehc/frontend",
-    "stack": ["VueJS (JavaScript)", "ONEM2M", "NodeMCU"],
-    "tags": ["frontend", "embedded", "real time"]
-  },
-  {
-    "name": "ROTehc SmartApp",
-    "description": "Wrote a TypeScript application for an IOT hackaton that acted as a proxy and grouped air quality sensors and actuators based on their distance.",
-    "url": "https://github.com/ROTehc/SmartApp",
-    "stack": ["Deno (TypeScript)", "ONEM2M", "NodeMCU"],
-    "tags": ["backend", "embedded", "real time"]
+    "name": "ROTehc",
+    "description": "Took part on an IOT hackaton where I developed a real time data visualization web app with VueJS and a device management backend written in TypeScript.",
+    "url": "https://github.com/ROTehc",
+    "stack": ["VueJS (JavaScript)", "Deno (TypeScript)", "ONEM2M", "NodeMCU"],
+    "tags": ["frontend", "backend", "embedded", "real time"]
   },
   {
     "name": "Advent of code",
