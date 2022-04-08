@@ -16,7 +16,9 @@ body {
 	margin: 0;
 	background: var(--bg);
 	color: var(--fg);
-	font-family: Fantasque Sans Mono;
+	font-family: 'FantasqueSansMonoRegular';
+	font-weight: normal;
+	font-style: normal;
 	font-size: 12pt;
 	line-height: 1.25em;
 }
