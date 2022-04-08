@@ -71,7 +71,7 @@
 					</li>
 				</ul>
 				<small>
-					Please note, I'm <span class="accent">not looking for a job</span> at the moment, but if you've
+					<b>Please note:</b> I'm <span class="accent">not looking for a job</span> at the moment, but if you've
 					any advice or criticism about this portfolio I'd be thankful to hear it.</small
 				>
 			</div>
