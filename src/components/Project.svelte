@@ -15,7 +15,7 @@
 			<li>{element}</li>
 		{/each}
 	</ul>
-	<p>Tags: <span class="accent">{tags}</span></p>
+	<small>Tags: <span class="success">{tags}</span></small>
 </div>
 
 <style>
@@ -28,7 +28,7 @@
 
 	h3 {
 		border-bottom: 1px solid var(--bg-light);
-		transition: all 150ms;
+		transition: all 128ms;
 	}
 
 	h3:hover {
