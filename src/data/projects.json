@@ -50,7 +50,7 @@
   },
   {
     "name": "Brainf*ck suite",
-    "description": "Suite for the brainf*ck language. A collection of python programs generate bf source code that produces the output specified in a file, compress, decompress and run that bf code through an interpreter.",
+    "description": "Suite for the brainf*ck language. A collection of python scripts to generate bf source code that produces the output specified in a file, compress, decompress and run that bf code through an interpreter.",
     "url": "https://github.com/rubenjr0/Brainfuck-Suite",
     "stack": ["Python", "Brainf*ck"],
     "tags": ["low level", "interpreter"]

@@ -20,9 +20,18 @@
 
 <style>
 	.card {
-		background: #0e0e1b;
+		background: var(--bg-light);
 		padding: 0.5em 1.5em;
 		border-radius: 4px;
 		margin-bottom: 1em;
+	}
+
+	h3 {
+		border-bottom: 1px solid var(--bg-light);
+		transition: all 150ms;
+	}
+
+	h3:hover {
+		border-bottom: 1px solid var(--blue);
 	}
 </style>
