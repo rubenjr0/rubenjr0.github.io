@@ -10,7 +10,7 @@
     }
 
     .uname {
-        color: var(--mint);
+        color: var(--green);
     }
 
     .path {

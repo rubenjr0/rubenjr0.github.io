@@ -28,17 +28,17 @@
 			<div>
 				<p>
 					Hey, I'm Rubén, a
-					<span class="accent"> computer science </span> student at UMA (Universidad de Málaga). Welcome
+					<span class="success"> computer science </span> student at UMA (Universidad de Málaga). Welcome
 					to my portfolio.
 				</p>
 				<p>
-					I've experience with <span class="accent"> web development </span>
+					I've experience with <span class="success"> web development </span>
 					(both backend and frontend),
-					<span class="accent"> machine learning </span> and concurrent programming.
+					<span class="success"> machine learning </span> and concurrent programming.
 				</p>
 				<p>
-					My prefered languages are Rust, <span class="accent">Python</span>, Julia,
-					<span class="accent"> JavaScript</span> and Crystal, though I work with others such as R, SQL,
+					My prefered languages are Rust, <span class="success">Python</span>, Julia,
+					<span class="success"> JavaScript</span> and Crystal, though I work with others such as R, SQL,
 					Java, C/C++, and some others.
 				</p>
 				<p>
@@ -82,7 +82,7 @@
 					</li>
 				</ul>
 				<small>
-					<b>Please note:</b> I'm <span class="accent">not looking for a job</span> at the moment, but
+					<b>Please note:</b> I'm <span class="warning">not looking for a job</span> at the moment, but
 					if you've any advice or criticism about this portfolio I'd be thankful to hear it.</small
 				>
 			</div>
