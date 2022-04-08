@@ -1,8 +1,7 @@
 <section class="footer">
 	<p>
 		<small>
-			Made with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>, and that's pretty
-			much it 👌
+			Made with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>.
 		</small>
 	</p>
 	<p>
