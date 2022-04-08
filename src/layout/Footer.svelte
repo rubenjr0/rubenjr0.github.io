@@ -17,7 +17,7 @@
 <style>
 	.footer {
 		padding: 2em 2em;
-		background: #0e0e1b;
+		background: var(--bg-light);
 		text-align: center;
 	}
 </style>
