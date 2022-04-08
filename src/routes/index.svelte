@@ -5,11 +5,20 @@
 
 	import projects from '../data/projects.json';
 	import Project from '../components/Project.svelte';
+import { onMount } from 'svelte';
+
+	const dot_separators = ['.....', '...', '......']
+	const col_separators = [':', ':', ':']
+	let width;
+
+	$: separator = width <= 720 ? col_separators : dot_separators;
 </script>
 
 <svelte:head>
 	<title>rubenjr0 portfolio</title>
 </svelte:head>
+
+<svelte:window bind:innerWidth={width} />
 
 <main>
 	<Header />
@@ -61,13 +70,13 @@
 				Have a question? Want to talk? Please contact me here:
 				<ul>
 					<li>
-						Github..... <a href="https://github.com/rubenjr0">rubenjr0</a>
+						Github{separator[0]} <a href="https://github.com/rubenjr0">rubenjr0</a>
 					</li>
 					<li>
-						LinkedIn... <a href="https://www.linkedin.com/in/rubenjimenezr/">rubenjimenezr</a>
+						LinkedIn{separator[1]} <a href="https://www.linkedin.com/in/rubenjimenezr/">rubenjimenezr</a>
 					</li>
 					<li>
-						Email...... <a href="mailto:rubenjr0@protonmail.com">rubenjr0@protonmail.com</a>
+						Email{separator[2]} <a href="mailto:rubenjr0@protonmail.com">rubenjr0@protonmail.com</a>
 					</li>
 				</ul>
 				<small>
