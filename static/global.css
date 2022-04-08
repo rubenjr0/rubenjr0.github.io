@@ -1,9 +1,11 @@
 :root {
-	--mint: #3EB489;
-	--blue: #16ABEE;
-	--bg: #07070D;
-	--bg-light: #0E0E1B;
-	--fg: #D9E0EE;
+	--bg: #121212;
+	--bg-light: #1C1B19;
+	--fg: #FCE8C3;
+	--green: #98BC37;
+	--blue: #68A8E4;
+	--yellow: #FED06E;
+	--red: #F75341;
 }
 
 html,
@@ -23,12 +25,35 @@ body {
 	line-height: 1.25em;
 }
 
+.container p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+ul {
+	margin-top: 0.2em;
+	list-style-type: square;
+	list-style-position: outside;
+}
 
 a {
-	color: var(--blue);
+	color: var(--green);
+	transition: all 128ms;
 	text-decoration: none;
 }
 
-.accent {
-	color: var(--mint);
+a:hover {
+	color: var(--blue);
+}
+
+.success {
+	color: var(--blue);
+}
+
+.warning {
+	color: var(--yellow);
+}
+
+.danger {
+	color: var(--red);
 }
