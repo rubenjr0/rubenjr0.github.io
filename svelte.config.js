@@ -14,7 +14,10 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		prerender: { default: true }
+		prerender: { 
+			onError: 'continue',
+			default: true
+		}
 	}
 };
 
