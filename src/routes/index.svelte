@@ -94,6 +94,7 @@
 
 <style>
 	.container {
+		margin: 0 auto;
 		padding: 1em 2em;
 		max-width: 720px;
 	}
