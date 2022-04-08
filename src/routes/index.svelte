@@ -5,10 +5,10 @@
 
 	import projects from '../data/projects.json';
 	import Project from '../components/Project.svelte';
-import { onMount } from 'svelte';
+	import { onMount } from 'svelte';
 
-	const dot_separators = ['.....', '...', '......']
-	const col_separators = [':', ':', ':']
+	const dot_separators = ['.....', '...', '......'];
+	const col_separators = [':', ':', ':'];
 	let width;
 
 	$: separator = width <= 720 ? col_separators : dot_separators;
@@ -42,8 +42,8 @@ import { onMount } from 'svelte';
 					Java, C/C++, and some others.
 				</p>
 				<p>
-					It's important to use the right tool for the job, that's why I like to learn about
-					different technologies, to solve problems in the most efficient way possible.
+					It's important to use the right tool for the job, that's why I like to try and learn a
+					wide variety of technologies, to solve problems in the most efficient way possible.
 				</p>
 			</div>
 		</Section>
@@ -74,15 +74,16 @@ import { onMount } from 'svelte';
 						Github{separator[0]} <a href="https://github.com/rubenjr0">rubenjr0</a>
 					</li>
 					<li>
-						LinkedIn{separator[1]} <a href="https://www.linkedin.com/in/rubenjimenezr/">rubenjimenezr</a>
+						LinkedIn{separator[1]}
+						<a href="https://www.linkedin.com/in/rubenjimenezr/">rubenjimenezr</a>
 					</li>
 					<li>
 						Email{separator[2]} <a href="mailto:rubenjr0@protonmail.com">rubenjr0@protonmail.com</a>
 					</li>
 				</ul>
 				<small>
-					<b>Please note:</b> I'm <span class="accent">not looking for a job</span> at the moment, but if you've
-					any advice or criticism about this portfolio I'd be thankful to hear it.</small
+					<b>Please note:</b> I'm <span class="accent">not looking for a job</span> at the moment, but
+					if you've any advice or criticism about this portfolio I'd be thankful to hear it.</small
 				>
 			</div>
 		</Section>
