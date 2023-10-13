@@ -1,6 +1,6 @@
 theme = "apollo"
 
-base_url = "https://example.com"
+base_url = "https://rubenjr0.github.io"
 title = "Bits, Bytes & Backprop"
 # title = "Tales of Tensor Sorcery"
 description = "Ramblings about machine learning, computer science, and other dark arts."
