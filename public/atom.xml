@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Bits, Bytes &amp; Backprop</title>
+    <subtitle>Ramblings about machine learning, computer science, and other dark arts.</subtitle>
+    <link href="https://rubenjr0.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://rubenjr0.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-06-29T00:00:00+00:00</updated>
+    <id>https://rubenjr0.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Brainf*ck Compiler</title>
+        <published>2023-06-29T00:00:00+00:00</published>
+        <updated>2023-06-29T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/bfc/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/bfc/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Monocular depth estimation</title>
+        <published>2023-06-14T00:00:00+00:00</published>
+        <updated>2023-06-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/depth/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/depth/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Time units interpreter</title>
+        <published>2023-05-31T00:00:00+00:00</published>
+        <updated>2023-05-31T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/interpreter/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/interpreter/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Dupper</title>
+        <published>2022-12-26T00:00:00+00:00</published>
+        <updated>2022-12-26T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/dupper/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/dupper/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scream</title>
+        <published>2022-11-24T00:00:00+00:00</published>
+        <updated>2022-11-24T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/scream/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/scream/</id>
+        
+        <content type="html">&lt;p&gt;This program takes in a list of password hashes, a dictionary, and a hashing algorithm. It will try to find matches in parallel, yielding a very high throughput.&lt;&#x2F;p&gt;
+&lt;p&gt;The source code is hosted &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rubenjr0&#x2F;scream&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Fashion MNIST in Julia</title>
+        <published>2022-05-28T00:00:00+00:00</published>
+        <updated>2022-05-28T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.github.io/projects/fashion-mnist/" type="text/html"/>
+        <id>https://rubenjr0.github.io/projects/fashion-mnist/</id>
+        
+        <content type="html"></content>
+        
+    </entry>
+</feed>
