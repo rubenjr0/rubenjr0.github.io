@@ -2,7 +2,8 @@ theme = "apollo"
 
 base_url = "https://example.com"
 title = "Bits, Bytes & Backprop"
-description = "Posts about machine learning, computer science and other dark arts"
+# title = "Tales of Tensor Sorcery"
+description = "Ramblings about machine learning, computer science, and other dark arts."
 build_search_index = false
 generate_feed = true
 compile_sass = true
@@ -14,7 +15,7 @@ minify_html = true
 highlight_code = true
 highlight_theme = "css"
 highlight_themes_css = [
-  { theme = "green", filename = "dark.css" },
+  { theme = "1337", filename = "dark.css" },
   { theme = "idle", filename = "light.css" },
 ]
 # 1337

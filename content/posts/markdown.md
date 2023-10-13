@@ -10,10 +10,7 @@ fn count<T>(xs: Vec<T>, x: T) -> usize
 where 
     T: PartialEq
 {
-    xs
-    .iter()
-    .filter(|n| n == x)
-    .count()
+    xs.iter().filter(|n| n == x).count()
 }
 ```
 
