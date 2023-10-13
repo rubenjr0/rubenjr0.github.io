@@ -6,5 +6,5 @@ weight = 1
 
 [extra]
 local_image = "/projects/depth.png"
-link_to = "https://github.com/rubenjr0/ENNCA/blob/main/depth_estimation.ipynb"
+link_to = "https://github.com/rubenjr0/ENNCA/blob/main/depth_estimation/readme.md"
 +++
