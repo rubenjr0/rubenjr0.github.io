@@ -15,7 +15,7 @@ minify_html = true
 highlight_code = true
 highlight_theme = "css"
 highlight_themes_css = [
-  { theme = "1337", filename = "dark.css" },
+  { theme = "material-dark", filename = "dark.css" },
   { theme = "idle", filename = "light.css" },
 ]
 # 1337
