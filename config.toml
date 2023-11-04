@@ -1,7 +1,7 @@
 theme = "apollo"
 
 base_url = "https://rubenjr0.github.io"
-title = "Bits, Bytes & Backprop"
+title = "Bits, Bytes && Backprop"
 # title = "Tales of Tensor Sorcery"
 description = "Ramblings about machine learning, computer science, and other dark arts."
 build_search_index = false
@@ -28,17 +28,17 @@ highlight_themes_css = [
 toc = true
 use_cdn = false
 favicon = "/icon/favicon.png"
-theme = "toggle" # light, dark, auto, toggle
+theme = "toggle"                    # light, dark, auto, toggle
 mathjax = true
 mathjax_dollar_inline_enable = true
 
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/about", url = "/about", weight = 3 },
+  { name = "/posts", url = "/posts", weight = 1 },
+  { name = "/projects", url = "/projects", weight = 2 },
+  { name = "/about", url = "/about", weight = 3 },
 ]
 
 socials = [
-    { name = "linkedin", url = "https://www.linkedin.com/in/rubenjr0/", icon = "linkedin" },
-    { name = "github", url = "https://github.com/rubenjr0", icon = "github" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/rubenjr0/", icon = "linkedin" },
+  { name = "github", url = "https://github.com/rubenjr0", icon = "github" },
 ]
