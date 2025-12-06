@@ -1,0 +1,80 @@
+[[project]]
+name = "Bachelor Thesis"
+desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+tags = ["thesis", "academic", "machine learning", "computer vision"]
+links = [
+    { name = "github", url = "https://example.com" },
+]
+
+[[project]]
+name = "Veil"
+desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+tags = ["rust", "webassembly", "security"]
+links = [
+    { name = "github", url = "https://example.com" },
+]
+
+[[project]]
+name = "ELK"
+desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+tags = ["compiler", "rust", "functional programming"]
+links = [
+    { name = "github", url = "https://example.com" },
+]
+
+[[project]]
+name = "JunctionX Málaga"
+desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+tags = ["hackathon", "security", "computer vision"]
+links = [
+    { name = "homepage", url = "https://example.com" },
+]
+
+[[project]]
+name = "Monocular Depth Estimation"
+desc = "Monocular depth estimation model developed for the Neural Network Compression with Applications course at the Warsaw University of Technology."
+tags = ["academic", "machine learning", "computer vision"]
+links = [{ name = "github", url = "https://github.com/rubenjr0/ENNCA/blob/main/depth_estimation/readme.md" }]
+date = "2023-06-14"
+
+[[project]]
+name = "Time Units Interpreter"
+desc = "Time units interpreter for the Compiling Techniques course at the Warsaw University of Technology."
+tags = ["lorem", "ipsum"]
+links = []
+date = "2023-05-31"
+
+[[project]]
+name = "Brainf*ck Compiler"
+desc = "Brainf*ck compiler targeting 32bit Intel x86 written in Rust."
+tags = ["compiler", "rust", "assembly"]
+links = [
+    { name = "github", url = "https://github.com/rubenjr0/bfc" },
+]
+
+[[project]]
+name = "Dupper CLI"
+desc = "CLI tool to find duplicate files based on their hashes."
+tags = ["cli", "rust"]
+links = [
+    { name = "github", url = "https://github.com/rubenjr0/dupper" },
+]
+date = "2022-12-26"
+
+[[project]]
+name = "Scream CLI"
+desc = "Password hash cracker written in Rust, capable of processing huge dictionaries. Supports multiple hash formats."
+tags = ["cli", "security", "rust"]
+links = [
+    { name = "github", url = "https://github.com/rubenjr0/scream" },
+]
+date = "2022-12-26"
+
+[[project]]
+name = "Fashion MNIST in Julia"
+desc = "Fashion MNIST classification problem solved using the Julia programming language"
+tags = ["machine learning", "computer vision"]
+links = [
+    { name = "github", url = "https://github.com/rubenjr0/fashion-mnist-julia" },
+]
+date = "2022-05-28"

@@ -1,6 +1,4 @@
 +++
-title = "About"
-path = "about"
+title = "About me"
+description = "..."
 +++
-
-Ramblings about computer science, programming languages, machine learning, and other dark arts.

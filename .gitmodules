@@ -1,3 +1,6 @@
-[submodule "apollo"]
-	path = "themes/apollo"
-	url = https://github.com/rubenjr0/apollo
+[submodule "themes/terminus"]
+	path = themes/terminus
+	url = https://github.com/ebkalderon/terminus.git
+[submodule "themes/kita"]
+	path = themes/kita
+	url = https://github.com/st1020/kita.git
