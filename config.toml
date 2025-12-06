@@ -49,9 +49,9 @@ header_blur = true
 name = "rubenjr0"
 bio = "Programming Languages - Machine Learning - Computer Science"
 # The URL of avatar.
-# avatar_url = "icons/github.svg"
+# avatar_url = "fractal.png"
 # Invert color in dark mode.
-avatar_invert = true
+# avatar_invert = true
 
 [[extra.profile.social]]
 name = "github"
