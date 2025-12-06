@@ -1,4 +1,5 @@
 +++
 title = "About me"
-description = "..."
+description = "Contact information and other details."
+weight = 1
 +++

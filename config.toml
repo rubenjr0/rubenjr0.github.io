@@ -8,7 +8,7 @@ compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
-# generate_feeds = true
+generate_feeds = true
 
 taxonomies = [
     { name = "category", paginate_by = 5, feed = true },
@@ -27,7 +27,7 @@ url = "$BASE_URL/projects"
 
 [[extra.menu]]
 name = "Resume"
-url = "$BASE_URL/archive"
+url = "$BASE_URL/resume.pdf"
 
 [[extra.menu]]
 name = "Publications"
@@ -41,16 +41,13 @@ url = "$BASE_URL/blog"
 name = "About"
 url = "$BASE_URL/about"
 
-
 [extra.style]
-bg_color = "#cecdc3"
 bg_dark_color = "#100f0f"
 header_blur = true
-fg_dark_color = "#ff0000"
 
 [extra.profile]
 name = "rubenjr0"
-bio = "Rust - Machine Learning - Computer Science - Cats"
+bio = "Programming Languages - Machine Learning - Computer Science"
 # The URL of avatar.
 # avatar_url = "icons/github.svg"
 # Invert color in dark mode.
