@@ -1,6 +1,6 @@
 [[project]]
 name = "Bachelor Thesis"
-desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+desc = "Scene depth estimation using RGB-D cameras, monocular depth estimation models, and product of Gaussian distributions. A machine learning model was developed to estimate the variance of each pixel in a depth map."
 tags = ["thesis", "academic", "machine learning", "computer vision"]
 links = [
     { name = "github", url = "https://example.com" },
@@ -8,27 +8,27 @@ links = [
 
 [[project]]
 name = "Veil"
-desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+desc = "E2E Cryptography suite written in Rust, capable of running on the browser via WebAssembly and as a CLI tool. Uses state of the art cryptographic algorithms."
 tags = ["rust", "webassembly", "security"]
 links = [
     { name = "home", url = "https://veil.rubenjr0.eu" },
-    { name = "github", url = "https://example.com" },
+    { name = "source", url = "https://codeberg.org/VeilE2EE/veil" },
 ]
 
 [[project]]
-name = "ELK"
-desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+name = "Elk"
+desc = "The Elk programming language, a functional programming language inspired by Gleam, Scala, Rust and Haskell. Work in progress, the compiler is currently being written in Rust."
 tags = ["compiler", "rust", "functional programming"]
 links = [
-    { name = "github", url = "https://example.com" },
+    { name = "github", url = "https://github.com/rubenjr0/elk" },
 ]
 
 [[project]]
 name = "JunctionX Málaga"
-desc = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, nisi saepe dolor unde iusto dolore nam, vero optio consequuntur repudiandae et! Atque libero expedita laudantium cupiditate, sit explicabo sequi ipsa!"
+desc = "Winning team at JunctionX Málaga 2023. Developed a steganography-based fingerprinting tool to help schools track the misuse of sensitive photos. Each image embedded invisible metadata: school, timestamp, permissions, and a unique parent ID, letting us identify the exact source if a photo was shared against policy."
 tags = ["hackathon", "security", "computer vision"]
 links = [
-    { name = "homepage", url = "https://example.com" },
+    { name = "github", url = "https://github.com/Matesanz/junction-move38" },
 ]
 
 [[project]]
