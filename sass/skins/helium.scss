@@ -4,13 +4,15 @@
         // Light theme colours.
         --primary-color: #3282e2; // Contrast ratio: 4.73:1
         --text-color: #5a676b;
-        --background-color: #fef6df;
-        --bg-1: #f1e9d2;
-        --bg-2: #ded5bf;
+        --text-color-high-contrast: #5a676b;
+        --background-color: #f1e9d2;
+        --bg-1: #ded5bf;
+        --bg-2: #fef6df;
     } @else if $theme == "dark" {
         // Dark theme colours.
         --primary-color: #4d9cff; // Contrast ratio: 11.06:1
-        --text-color: #b4c3c4;
+        --text-color: #98a7a8;
+        --text-color-high-contrast: #b4c3c4;
         --background-color: #002d38;
         --bg-1: #214a56;
         --bg-2: #0d3844;
