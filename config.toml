@@ -22,8 +22,8 @@ highlight_theme = "css"
 
 [extra]
 theme_switcher = true
-skin = "helium"
-favicon_emoji = "👾"
+skin = "flexi"
+favicon_emoji = "🍕"
 quick_navigation_buttons = true
 email = "rubenjr0@proton.me"
 encode_plaintext_email = true
