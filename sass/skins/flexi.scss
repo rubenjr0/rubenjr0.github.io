@@ -1,0 +1,31 @@
+// This defines theme-specific variables.
+@mixin theme-variables($theme) {
+    @if $theme == "light" {
+        // Light theme colours.
+        --primary-color: #cc3d34; // Contrast ratio: 4.73:1
+        --text-color: #100f0f;
+    } @else if $theme == "dark" {
+        // Dark theme colours.
+        --primary-color: #ff7364; // Contrast ratio: 11.06:1
+        --text-color: #fffcf0;
+        --background-color: #100f0f;
+    }
+}
+
+// Apply light theme variables by default.
+:root {
+    @include theme-variables("light");
+}
+
+// Apply dark theme variables when dark theme is explicitly set.
+[data-theme="dark"] {
+    @include theme-variables("dark");
+}
+
+// Apply dark theme variables when user's system prefers dark mode
+// and the theme is not explicitly set to light.
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        @include theme-variables("dark");
+    }
+}

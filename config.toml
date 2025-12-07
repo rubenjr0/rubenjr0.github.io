@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://rubenjr0.eu"
 title = "rubenjr0"
-theme = "kita"
+theme = "tabi"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -11,60 +11,35 @@ build_search_index = true
 generate_feeds = true
 
 taxonomies = [
-    { name = "category", paginate_by = 5, feed = true },
+    { name = "tags", paginate_by = 5, feed = true },
 ]
 
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-highlight_theme = "material-dark"
+highlight_theme = "css"
 
 [extra]
-[[extra.menu]]
-name = "Projects"
-url = "$BASE_URL/projects"
+theme_switcher = true
+skin = "helium"
+favicon_emoji = "👾"
+quick_navigation_buttons = true
+email = "rubenjr0@proton.me"
+encode_plaintext_email = true
+copyright = "© $CURRENT_YEAR Ruben J.R. $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
 
-[[extra.menu]]
-name = "Resume"
-url = "$BASE_URL/resume.pdf"
+menu = [
+    { name = "Projects", url = "projects", trailing_slash = true },
+    { name = "Resume", url = "/resume.pdf", trailing_slash = false },
+    { name = "Publications", url = "publications", trailing_slash = true },
+    { name = "Blog", url = "blog", trailing_slash = true },
+    { name = "About", url = "about", trailing_slash = true },
+]
 
-[[extra.menu]]
-name = "Publications"
-url = "$BASE_URL/publications"
-
-[[extra.menu]]
-name = "Blog"
-url = "$BASE_URL/blog"
-
-[[extra.menu]]
-name = "About"
-url = "$BASE_URL/about"
-
-[extra.style]
-bg_dark_color = "#100f0f"
-header_blur = true
-
-[extra.profile]
-name = "rubenjr0"
-bio = "Programming Languages - Machine Learning - Computer Science"
-# The URL of avatar.
-# avatar_url = "fractal.png"
-# Invert color in dark mode.
-# avatar_invert = true
-
-[[extra.profile.social]]
-name = "github"
-url = "https://github.com/rubenjr0"
-
-[[extra.profile.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/rubenjr0"
-
-[[extra.profile.social]]
-name = "email"
-url = "mailto:rubenjr0@proton.me"
-
-[[extra.profile.social]]
-name = "rss"
-url = "$BASE_URL/atom.xml"
+socials = [
+    { name = "linkedin", url = "https://www.linkedin.com/in/rubenjr0", icon = "linkedin" },
+    { name = "github", url = "https://github.com/rubenjr0", icon = "github" },
+    { name = "codeberg", url = "https://codeberg.org/rubenjr0/", icon = "codeberg" },
+    { name = "matrix", url = "https://matrix.to/#/@rubenjr:matrix.org", icon = "matrix" },
+]

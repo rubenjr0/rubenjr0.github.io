@@ -1,9 +1,10 @@
 [[project]]
 name = "Bachelor Thesis"
 desc = "Scene depth estimation using RGB-D cameras, monocular depth estimation models, and product of Gaussian distributions. A machine learning model was developed to estimate the variance of each pixel in a depth map."
-tags = ["thesis", "academic", "machine learning", "computer vision"]
+tags = ["academic", "machine learning", "computer vision"]
 links = [
-    { name = "github", url = "https://example.com" },
+    { name = "more", url = "/publications/thesis" },
+    { name = "source", url = "https://example.com" },
 ]
 
 [[project]]
@@ -20,7 +21,8 @@ name = "Elk"
 desc = "The Elk programming language, a functional programming language inspired by Gleam, Scala, Rust and Haskell. Work in progress, the compiler is currently being written in Rust."
 tags = ["compiler", "rust", "functional programming"]
 links = [
-    { name = "github", url = "https://github.com/rubenjr0/elk" },
+    { name = "more", url = "elk" },
+    { name = "source", url = "https://github.com/rubenjr0/elk" },
 ]
 
 [[project]]
@@ -28,14 +30,14 @@ name = "JunctionX Málaga"
 desc = "Winning team at JunctionX Málaga 2023. Developed a steganography-based fingerprinting tool to help schools track the misuse of sensitive photos. Each image embedded invisible metadata: school, timestamp, permissions, and a unique parent ID, letting us identify the exact source if a photo was shared against policy."
 tags = ["hackathon", "security", "computer vision"]
 links = [
-    { name = "github", url = "https://github.com/Matesanz/junction-move38" },
+    { name = "source", url = "https://github.com/Matesanz/junction-move38" },
 ]
 
 [[project]]
 name = "Monocular Depth Estimation"
 desc = "Monocular depth estimation model developed for the Neural Network Compression with Applications course at the Warsaw University of Technology."
 tags = ["academic", "machine learning", "computer vision"]
-links = [{ name = "github", url = "https://github.com/rubenjr0/ENNCA/blob/main/depth_estimation/readme.md" }]
+links = [{ name = "source", url = "https://github.com/rubenjr0/ENNCA/blob/main/depth_estimation/readme.md" }]
 date = "2023-06-14"
 
 [[project]]
@@ -50,7 +52,7 @@ name = "Brainf*ck Compiler"
 desc = "Brainf*ck compiler targeting 32bit Intel x86 written in Rust."
 tags = ["compiler", "rust", "assembly"]
 links = [
-    { name = "github", url = "https://github.com/rubenjr0/bfc" },
+    { name = "source", url = "https://github.com/rubenjr0/bfc" },
 ]
 
 [[project]]
@@ -58,7 +60,7 @@ name = "Dupper CLI"
 desc = "CLI tool to find duplicate files based on their hashes."
 tags = ["cli", "rust"]
 links = [
-    { name = "github", url = "https://github.com/rubenjr0/dupper" },
+    { name = "source", url = "https://github.com/rubenjr0/dupper" },
 ]
 date = "2022-12-26"
 
@@ -67,7 +69,7 @@ name = "Scream CLI"
 desc = "Password hash cracker written in Rust, capable of processing huge dictionaries. Supports multiple hash formats."
 tags = ["cli", "security", "rust"]
 links = [
-    { name = "github", url = "https://github.com/rubenjr0/scream" },
+    { name = "source", url = "https://github.com/rubenjr0/scream" },
 ]
 date = "2022-12-26"
 
@@ -76,6 +78,6 @@ name = "Fashion MNIST in Julia"
 desc = "Fashion MNIST classification problem solved using the Julia programming language"
 tags = ["machine learning", "computer vision"]
 links = [
-    { name = "github", url = "https://github.com/rubenjr0/fashion-mnist-julia" },
+    { name = "source", url = "https://github.com/rubenjr0/fashion-mnist-julia" },
 ]
 date = "2022-05-28"
