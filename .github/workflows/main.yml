@@ -16,8 +16,10 @@ jobs:
         run: cargo binstall fontpm
       - name: fontpm | refresh
         run: fontpm refresh
-      - name: fontpm | install font
-        run: fontpm install ibm-plex-sans
+      - name: fontpm | install fonts
+        run: |
+          fontpm install ibm-plex-sans
+          fontpm install ibm-plex-mono
       - name: Build resume
         run: typst c resume/resume.typ static/resume.pdf
       - uses: actions/upload-artifact@v4

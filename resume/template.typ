@@ -4,6 +4,7 @@
 
 #let heading_font = "IBM Plex Sans"
 #let text_font = "IBM Plex Sans"
+#let code_font = "IBM Plex Mono"
 
 #let template(subtitle: "", doc) = {
   set text(
@@ -13,7 +14,7 @@
     dark,
     kerning: true,
   )
-  show raw: set text(font: "FantasqueSansM Nerd Font", size: 10pt)
+  show raw: set text(font: code_font, size: 10pt)
   show heading: set text(font: heading_font)
   show heading.where(level: 2): set text(primary)
   set par(justify: true, linebreaks: "optimized")
