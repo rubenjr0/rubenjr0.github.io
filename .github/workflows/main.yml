@@ -9,14 +9,17 @@ jobs:
         uses: actions/checkout@v4.0.0
         with:
           submodules: recursive
-      - name: Setup fontist
-        uses: fontist/setup-fontist@v2
-      - name: Install font
-        run: fontist install "IBM Plex Sans"
       - name: Setup typst
         uses: typst-community/setup-typst@v4
+      - uses: cargo-bins/cargo-binstall@main
+      - name: fontpm | setup
+        run: cargo binstall fontpm
+      - name: fontpm | refresh
+        run: fontpm refresh
+      - name: fontpm | install font
+        run: fontpm install ibm-plex-sans
       - name: Build resume
-        run: typst c resume/resume.typ static/resume.pdf --font-path ~/.fontist/fonts
+        run: typst c resume/resume.typ static/resume.pdf
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@master
         env:
