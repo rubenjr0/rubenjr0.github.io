@@ -1,7 +1,7 @@
 #import "template.typ": dash_line, template
 
 #show: template.with(
-  subtitle: "Junior Engineer",
+  subtitle: "Software Engineer",
 )
 
 #grid(
