@@ -4,6 +4,8 @@ description = "A functional programming language inspired by Gleam, Scala, Rust 
 weight = 1
 [taxonomies]
 tags = ["compiler", "rust", "functional programming"]
+[extra]
+local_image = "images/moose.svg"
 +++
 
 Here's a sample program:
