@@ -11,25 +11,27 @@ local_image = "images/moose.svg"
 Here's a sample program:
 
 ```rs
-type Option(T) { 
+type Option<T> { 
   Some(T),
   None, 
 }
 
-Option::map(Option(A), f: ((A) -> B)) -> Option(B);
-Option::map(None, _) = None;
-Option::map(Some(v), f) = Some(f(v));
+Option::bind<T>(x: T) -> Self<T> = Self.Some(x);
 
-inc(Option(U8)) -> Option(U8);
-inc(None) = None;
-inc(Some(x)) = Some(x + 1);
+Option::map<A, B>(Self<A>, f: (A) -> B) -> Self<B>;
+Option::map(Self.None, _) = Self.None;
+Option::map(Self.Some(v), f) = Self.Some(f(v));
 
-double(x: U8) -> U8  = 2 * x;
+inc(x: U8) -> U8 = x + 1;
+div<D: U8>(x: U8, d: D) -> U8
+    where (D > 0)
+    = x / d; 
 
 main { 
-    x = Option.Some(1);
-    y = inc(x);
-    z = Option::map(y, double);
+    x = 1 
+        |> Option::bind 
+        |> Option::map(inc) 
+        |> Option::map(div(2));
 }
 ```
 
