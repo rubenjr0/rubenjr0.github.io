@@ -105,17 +105,16 @@
 
     #dash_line
 
+    == Nvidia DLI certifications (2021)
+    Obtained certifications by the _Nvidia Deep Learning Institute_ in *Fundamentals of Deep Learning* and *Fundamentals of Accelerated Computing with CUDA C/C++*.
+
+    #dash_line
+
     == JunctionX Málaga winning team (2023)
     Developed a steganography-based traceability system using fingerprinting techniques for digital content protection. Advanced to world finals in Finland.
 
     #dash_line
 
-    == Nvidia Deep Learning Institute certifications (2021)
-    Obtained certifications by the Nvidia Deep Learning Institute in _Fundamentals of Deep Learning_ and _Fundamentals of Accelerated Computing with CUDA C/C++_.
-
-    #dash_line
-
     == Open Source contributions & Projects
-    *14k downloads* across a variety of open source personal projects. I regularly try to contribute to open source projects and learn new technologies.
-  ],
+    *14k downloads* across a variety of open source personal projects. I've contributed to projects such as _Burn_, _Lucky_, and others  ],
 )
