@@ -10,7 +10,7 @@ local_image = "images/moose.svg"
 
 Here's a sample program:
 
-```rs
+```rust
 type Option<T> { 
   Some(T),
   None, 
