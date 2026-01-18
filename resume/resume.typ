@@ -74,7 +74,7 @@
       gutter: 1fr,
       "Universidad de Málaga, Spain", "2019 - 2025",
     )
-    === Outstanding Bachelor Thesis
+    *Outstanding Bachelor Thesis* \
     Proposed, developed, and trained a machine learning model to estimate the variance of depth maps in order to combine multiple sources of information. Outstanding grade of 9.5/10
 
     #dash_line
@@ -85,7 +85,7 @@
       gutter: 1fr,
       "Politechnika Warszawska, Poland", "2023",
     )
-    === Master's Courses
+    *Master's Courses* \
     Took master's courses in computer vision and advanced machine learning, obtaining outstanding grades of 10/10 in both courses.
 
     #dash_line

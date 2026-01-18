@@ -7,7 +7,7 @@
 #let heading_font = text_font
 
 #let dash_line = {
-  set block(above: 0.8em)
+  set block(below: 1em)
   line(length: 100%, stroke: (
     thickness: 0.1em,
     paint: primary,
@@ -26,6 +26,7 @@
 
   show heading: set text(font: heading_font)
   show heading.where(level: 2): set text(primary)
+  show heading.where(level: 2): set block(above: 0.5em)
 
   set page(
     paper: "a4",
