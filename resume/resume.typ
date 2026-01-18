@@ -34,7 +34,6 @@
     - *Python:* Advanced
     - *Java:* Advanced
     - *JS & TS:* Fluent
-    - Others such as C/C++, C\#, Haskell
 
     #dash_line
 
@@ -61,11 +60,11 @@
 
     == Others
     - Linux
-    - Containers
     - DevOps
     - Security
-    - Data science
     - Robotics
+    - Containers
+    - Data science
   ],
   block(inset: (y: 0.5in, x: 0.5in))[
     = Education
@@ -76,13 +75,7 @@
       "Universidad de Málaga, Spain", "2019 - 2025",
     )
     === Outstanding Bachelor Thesis
-    // - Came up with an idea on my own
-    // - Implemented and trained
-    // - Machine learning, robotics
-    // - Uncertainty prediction, depth maps
-    // - Data fusion
-    // - Outstanding grade
-    Implemented a machine learning model to estimate the variance of depth maps in order to combine multiple sources of information. Outstanding grade of 9.5/10
+    Proposed, developed, and trained a machine learning model to estimate the variance of depth maps in order to combine multiple sources of information. Outstanding grade of 9.5/10
 
     #dash_line
 
@@ -98,20 +91,18 @@
     #dash_line
 
     == Notable Academic Achievements
-    - Outstanding Bachelor Thesis (9.5/10)
+    // - Outstanding Bachelor Thesis (9.5/10)
     - Networks and Distributed Systems (9.5/10)
-    - Adaptive Image Recognition (10/10)
-    - Neural Network Compression with Applications (10/10)
+    // - Adaptive Image Recognition (10/10)
+    // - Neural Network Compression with Applications (10/10)
     - Machine Learning (10/10)
     - Systems Programming and Concurrency, with honors
     - Introduction to Software Engineering, with honors
 
-    = Relevant projects & achievements
+    = Experience
+    == Student's Council Developer (2019 - 2021)
+    Used Vuejs and Svelte to develop the websites for the _Hackers Week_ annual event organized by the student council of my home university.
 
-    == Open Source contributions & Projects
-    *14k downloads* across a variety of open source personal projects.
-
-    *Contributions:* Implemented a series of schedulers for the *burn* rust machine learning framework.
     #dash_line
 
     == JunctionX Málaga winning team (2023)
@@ -120,6 +111,11 @@
     #dash_line
 
     == Nvidia Deep Learning Institute certifications (2021)
-    Obtained certifications by the Nvidia Deep Learning Institute in *Fundamentals of Deep Learning* and *Fundamentals of Accelerated Computing with CUDA C/C++*.
+    Obtained certifications by the Nvidia Deep Learning Institute in _Fundamentals of Deep Learning_ and _Fundamentals of Accelerated Computing with CUDA C/C++_.
+
+    #dash_line
+
+    == Open Source contributions & Projects
+    *14k downloads* across a variety of open source personal projects. I regularly try to contribute to open source projects and learn new technologies.
   ],
 )
