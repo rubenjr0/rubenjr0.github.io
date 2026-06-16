@@ -1,120 +1,89 @@
-#import "template.typ": dark, dash_line, light, template
+#import "template.typ": dark, dash_line, entry, heading_font, light, muted, primary, template
 
 #show: template
 
+#block(
+  width: 100%,
+  inset: (x: 0.5in, top: 0.55in, bottom: 0.05in),
+)[
+  #grid(
+    columns: (1fr, auto),
+    align: (left + bottom, right + bottom),
+    [
+      #text(size: 2.1em, weight: "bold", fill: primary, font: heading_font)[Rubén Jiménez Reina] \
+      #v(0.2em)
+      #text(size: 1.05em, fill: dark, weight: "medium")[Software Developer]
+    ],
+    [
+      #set text(size: 9.5pt, fill: muted)
+      #set align(right)
+      #link("mailto:rubenjr0@proton.me") \
+      #link("tel:+34644430742", "+34 644 43 07 42") \
+      #link("https://rubenjr0.eu", "rubenjr0.eu") · #link("https://www.linkedin.com/in/rubenjr0/", "LinkedIn") · #link("https://github.com/rubenjr0/", "GitHub")
+    ],
+  )
+  #v(0.4em)
+  #line(length: 100%, stroke: (thickness: 0.12em, paint: primary))
+]
+
 #grid(
-  columns: (1fr, 60%),
-  block(
-    inset: (top: 0.5in, left: 0.5in),
-    height: 100%,
-  )[
-    #block(
-      outset: (top: 0.5in, left: 0.5in),
-      inset: (bottom: 2em),
-      width: 100%,
-      fill: dark,
-    )[
-      #set text(light)
-      = Rubén Jiménez Reina
-      - *Email:* #link("mailto:rubenjr0@proton.me")
-      - *Phone:* #link("tel:+34 644 43 07 42")
-      - *Website:* #link("https://rubenjr0.eu", "rubenjr0.eu")
-      - *LinkedIn:* #link("https://www.linkedin.com/in/rubenjr0/", "rubenjr0")
-      - *GitHub:* #link("https://github.com/rubenjr0/", "rubenjr0")
-    ]
-
+  columns: (38%, 1fr),
+  block(inset: (left: 0.5in, top: 0.3in))[
     = Languages
-    - *Spanish:* Native
-    - *English:* Professional
-    - *German:* Beginner
-
-    = Tools & Skills
-    == Programming languages
-    - *Rust:* Advanced
-    - *Python:* Advanced
-    - *Java:* Advanced
-    - *JS & TS:* Fluent
+    #grid(
+      columns: (1fr, auto),
+      row-gutter: 0.5em,
+      "Spanish", text(fill: muted)[Native],
+      "English", text(fill: muted)[Professional],
+      "German", text(fill: muted)[Beginner],
+    )
 
     #dash_line
 
-    == Web
-    - Database modeling and management
-    - Authentication and Authorization
-    - API REST and RPC
-    - API and data security
-    - Backend architecture
-    - Real time applications
-    - Performance
-    - Frontend
+    = Skills
+    == Programming
+    *Rust*, *Python*, TypeScript, Java, SQL
 
-    #dash_line
+    == AI & Agentic
+    Agentic workflows (Pydantic AI), LLM evaluation & auditing, ML training & deployment, Computer Vision, real-time voice (LiveKit)
 
-    == Machine Learning
-    - Model design
-    - Data engineering
-    - Training
-    - Deployment
-    - Computer Vision
+    == Backend
+    REST & RPC APIs, auth & authorization, real-time systems, backend architecture, event-driven design
 
-    #dash_line
+    == Databases
+    PostgreSQL, SQLite, Redis, schema design & migrations
 
-    == Others
-    - Linux
-    - DevOps
-    - Security
-    - Robotics
-    - Containers
-    - Data science
+    == Security
+    Cryptography, network security, authentication (OAuth, JWT, Paseto), zero-trust, threat modeling
+
+    == Tools & Infrastructure
+    Docker, Linux, Google Cloud, GitLab CI/CD, Logfire, Git
   ],
-  block(inset: (y: 0.5in, x: 0.5in))[
+  block(inset: (x: 0.5in, top: 0.3in))[
+    = Experience
+    == Software Developer · Lexic.ai
+    #entry("Spain", "Mar 2026 – Present")
+    - Build agentic AI workflows and backend systems with Python, FastAPI and Pydantic AI for business intelligence applications.
+    - Develop an AI auditing platform that evaluates agent quality and enforces regulatory compliance.
+
+    == JunctionX Málaga
+    #entry("Hackathon · Winner", "Sep 2023")
+    Steganography-based traceability system using fingerprinting for digital content protection. Advanced to world finals in Finland.
+
+    == Open Source
+    14k+ downloads across personal crates. Contributor to _Burn_, the Rust deep-learning framework.
+
+    #dash_line
+
     = Education
     == Bachelor in Computer Science Engineering
-    #grid(
-      columns: 2,
-      gutter: 1fr,
-      "Universidad de Málaga, Spain", "2019 - 2025",
-    )
-    *Outstanding Bachelor Thesis* \
-    Proposed, developed, and trained a machine learning model to estimate the variance of depth maps in order to combine multiple sources of information. Outstanding grade of 9.5/10
+    #entry("Universidad de Málaga, Spain", "2019 – 2025")
+    *Outstanding Bachelor thesis:* ML model estimating depth map variance for multi-source fusion (9.5/10).
 
-    #dash_line
+    *Notable grades:* Machine Learning (10/10), Systems Programming & Concurrency (with honors).
 
-    == Erasmus
-    #grid(
-      columns: 2,
-      gutter: 1fr,
-      "Politechnika Warszawska, Poland", "2023",
-    )
-    *Master's Courses* \
-    Took master's courses in computer vision and advanced machine learning, obtaining outstanding grades of 10/10 in both courses.
-
-    #dash_line
-
-    == Notable Academic Achievements
-    // - Outstanding Bachelor Thesis (9.5/10)
-    - Networks and Distributed Systems (9.5/10)
-    // - Adaptive Image Recognition (10/10)
-    // - Neural Network Compression with Applications (10/10)
-    - Machine Learning (10/10)
-    - Systems Programming and Concurrency, with honors
-    - Introduction to Software Engineering, with honors
-
-    = Experience
-    == Student's Council Developer (2019 - 2021)
-    Used Vuejs and Svelte to develop the websites for the _Hackers Week_ annual event organized by the student council of my home university.
-
-    #dash_line
-
-    == Nvidia DLI certifications (2021)
-    Obtained certifications by the _Nvidia Deep Learning Institute_ in *Fundamentals of Deep Learning* and *Fundamentals of Accelerated Computing with CUDA C/C++*.
-
-    #dash_line
-
-    == JunctionX Málaga winning team (2023)
-    Developed a steganography-based traceability system using fingerprinting techniques for digital content protection. Advanced to world finals in Finland.
-
-    #dash_line
-
-    == Open Source contributions & Projects
-    *14k downloads* across a variety of open source personal projects. I've contributed to projects such as _Burn_, _Lucky_, and others  ],
+    == Erasmus Exchange
+    #entry("Politechnika Warszawska, Poland", "2023")
+    *Master's-level Computer Vision & Advanced ML* taken during my bachelor's, 10/10 in both.
+  ],
 )
