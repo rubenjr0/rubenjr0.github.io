@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://rubenjr0.eu/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;rubenjr0.eu</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>rubenjr0</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://rubenjr0.eu/skins/flexi.css?h=7ccbaec65ee33ec9287b" /><title>rubenjr0</title>
+    <link href="https://rubenjr0.eu/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://rubenjr0.eu" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator><updated>2025-12-06T00:00:00+00:00</updated><id>https://rubenjr0.eu/atom.xml</id><entry xml:lang="en">
+        <title>First Post</title>
+        <published>2025-12-06T00:00:00+00:00</published>
+        <updated>2025-12-06T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.eu/blog/first/" type="text/html"/>
+        <id>https://rubenjr0.eu/blog/first/</id>
+        <summary type="html">Nothing to see here... yet.</summary>
+        </entry><entry xml:lang="en">
+        <title>Bachelor&#x27;s thesis</title>
+        <published>2025-12-06T00:00:00+00:00</published>
+        <updated>2025-12-06T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.eu/publications/thesis/" type="text/html"/>
+        <id>https://rubenjr0.eu/publications/thesis/</id>
+        <summary type="html">Scene depth estimation using RGB-D cameras and monocular depth estimation models.</summary>
+        </entry><entry xml:lang="en">
+        <title>Monocular Depth Estimation</title>
+        <published>2023-06-14T00:00:00+00:00</published>
+        <updated>2023-06-14T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.eu/projects/monocular/" type="text/html"/>
+        <id>https://rubenjr0.eu/projects/monocular/</id>
+        <summary type="html">Neural Network Compression with Applications Master&#x27;s course project at the Warsaw University of Technology.</summary>
+        </entry><entry xml:lang="en">
+        <title>Time Units Interpreter</title>
+        <published>2023-05-31T00:00:00+00:00</published>
+        <updated>2023-05-31T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.eu/projects/time/" type="text/html"/>
+        <id>https://rubenjr0.eu/projects/time/</id>
+        <summary type="html">Time units interpreter for the Compiling Techniques course at the Warsaw University of Technology.</summary>
+        </entry><entry xml:lang="en">
+        <title>Fashion MNIST in Julia</title>
+        <published>2022-05-28T00:00:00+00:00</published>
+        <updated>2022-05-28T00:00:00+00:00</updated>
+        <author>
+            <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://rubenjr0.eu/projects/fashion/" type="text/html"/>
+        <id>https://rubenjr0.eu/projects/fashion/</id>
+        <summary type="html">Fashion MNIST classification problem solved using the Julia programming language.</summary>
+        </entry>
+</feed>
