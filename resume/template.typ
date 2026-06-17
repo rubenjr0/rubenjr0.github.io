@@ -4,9 +4,8 @@
 #let muted = oklch(42%, 10%, hue) // secondary metadata — dates, locations, contacts
 #let light = white
 
-#let heading_font = "IBM Plex Mono"
 #let text_font = "IBM Plex Sans"
-// #let heading_font = "IBM Plex Sans"
+#let heading_font = text_font
 
 // subtle hairline — separates whole sections (placed between sections)
 #let rule_color = oklch(83%, 6%, hue)
