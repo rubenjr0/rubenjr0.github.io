@@ -45,10 +45,10 @@
     *Rust*, *Python*, TypeScript, Java, SQL
 
     == AI & Agentic
-    Agentic workflows (Pydantic AI), LLM evaluation & auditing, ML training & deployment, Computer Vision, real-time voice (LiveKit)
+    Agentic workflows (Pydantic AI), evals & auditing, ML training & deployment, Computer Vision, real-time & interactive AI systems.
 
     == Backend
-    REST & RPC APIs, auth & authorization, real-time systems, backend architecture, event-driven design
+    REST & RPC APIs, authentication & authorization, real-time systems, backend architecture, event-driven design
 
     == Databases
     PostgreSQL, SQLite, Redis, schema design & migrations
@@ -57,21 +57,21 @@
     Cryptography, network security, authentication (OAuth, JWT, Paseto), zero-trust, threat modeling
 
     == Tools & Infrastructure
-    Docker, Linux, Google Cloud, GitLab CI/CD, Logfire, Git
+    Docker, Linux, GCP, GitLab CI/CD, Logfire, Git
   ],
   block(inset: (x: 0.5in, top: 0.3in))[
     = Experience
     == Software Developer · Lexic.ai
     #entry("Spain", "Mar 2026 – Present")
-    - Build agentic AI workflows and backend systems with Python, FastAPI and Pydantic AI for business intelligence applications.
-    - Develop an AI auditing platform that evaluates agent quality and enforces regulatory compliance.
+    - Built agentic AI workflows and backend systems with Python, FastAPI and Pydantic AI for business intelligence applications.
+    - Developed an AI auditing platform that evaluates agent quality and enforces regulatory compliance.
 
     == JunctionX Málaga
     #entry("Hackathon · Winner", "Sep 2023")
     Steganography-based traceability system using fingerprinting for digital content protection. Advanced to world finals in Finland.
 
     == Open Source
-    14k+ downloads across personal crates. Contributor to _Burn_, the Rust deep-learning framework.
+    14k+ downloads across personal projects. Contributor to _Burn_, the Rust deep-learning framework.
 
     #dash_line
 
